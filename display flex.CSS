@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+header{
+    background-image: linear-gradient(to right, #8925af, #9652c0, #a476cf, #b598db, #c8b9e5);
+    display: flex;
+    width: 100%;
+    height: 150px;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+#logo{
+    margin-right: auto;
+}
+header a{
+    text-decoration: none;
+    font-size: 45px;
+    color: black;
+}
+h1{
+    font-size: 50px;
+    color:rgb(217, 209, 228);
+    position: absolute;
+    bottom: 640px;
+    left: 500px;
+    font-style: italic;
+    font-weight: bold;
+
+}
+.center{
+    position: relative;
+}
+button{
+    border:0;
+    position: absolute;
+    bottom: 620px;
+    right: 750px;
+    padding: 10px;
+    width: 120px;
+    background-color: dodgerblue;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+}
+button:hover{
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: aqua;
+}
+header a:hover{
+    color: azure;
+}
+.container{
+    display: flex;
+}
+.box{
+    flex-direction: column;
+    border: 1px solid lightgray;
+    margin: 20px 20px 20px 30px;
+    flex-basis: 30%;
+    text-align: center;
+    background-image: linear-gradient(to right, #8925af, #9652c0, #a476cf, #b598db, #c8b9e5);
+  }
+.box img{
+    width: 100%;
+}
+.Go a{
+    text-decoration: none;
+    font-size: 25px;
+    color:cyan;
+   
+}
+.box:hover{
+    transform: scale(1.1);
+    box-shadow: 6px -4px 2px #c181dc;
+}
+.Go a:hover{
+    color: white;
+}
+footer{
+    background-image: linear-gradient(to right, #8925af, #9652c0, #a476cf, #b598db, #c8b9e5); 
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-shadow: 2px 3px 2px rgb(14 194 91); ;
+}

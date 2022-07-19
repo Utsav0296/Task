@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.header{
+    width: 100%;
+    background:linear-gradient(rgb(109, 192, 50),rgb(64, 68, 163));
+    overflow: hidden;
+}
+.logo{width: 30%; float: left;}
+.logo img{margin: 10px;}
+.menu{width: 70%; float: left;}
+.menu ul{float: right;}
+.menu li{display: inline-block; margin-top: 50px;}
+.menu a{color: white;padding: 0px 35px 0px 0px;font-size: 30px;text-decoration: none;}
+.menu a:hover{color: maroon;}
+.center{width: 100%;}
+.left{width: 30%; background-color: rgb(19, 200, 188); overflow: hidden; float: left; height: 370px;}
+.left li{color:white;font-size: 30px;text-align: center;margin: 30px;list-style-type: none;}
+.left li:hover{border: 3px solid rgb(33, 89, 218);}
+.right{width:70%;background-color: grey;float: left; height: 370px;}
+.product{margin:20px;width:15%;float: left;text-align: center;}
+.product button{height: 30px;width: 80px;border: 2px solid darkmagenta;margin-left: 10px;margin-top: 10px;}
+.product button:hover{background-color: rgb(21, 178, 213);color: white;}
+.footer{background-color: rgb(37, 147, 72);color: white; width: 100%;padding-top: 30px;float: left;padding-bottom: 30px; overflow: hidden;}

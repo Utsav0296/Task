@@ -1,0 +1,96 @@
+*{box-sizing: border-box;}
+.one{
+    background-image: url(images/backgorund\ image\ for\ student\ form\ .jpg);
+    height: 720px;
+    width: 100%;
+    background-size: cover;
+    filter: blur(3px);
+    position: relative;
+    overflow: hidden;
+}
+h1{
+    position: absolute;
+    bottom: 640px;
+    left: 450px;
+    font-size: 40px;
+    color: rgb(21, 49, 33);
+    
+}
+.two{
+    font-style: italic;
+    height: 400px;
+    width: 500px; 
+    position: absolute;
+    bottom: 500px;
+    
+}
+.two > i{
+    font-size: 15px;
+    color:aqua;
+    background-color: blueviolet;
+    text-align: center;
+    padding: 12px
+   }
+   .two{
+    height: 600px;
+    width: 550px;
+    background-color: white;
+    position: absolute;
+    top: 97px;
+    left: 200px;
+    padding-top: 20px;
+    padding-left: 20px;
+   }
+   .two input{
+    width: 465px;
+    padding: 10px;
+   }
+   .three > i{
+    font-size: 15px;
+    color:aqua;
+    background-color: blueviolet;
+    text-align: center;
+    padding: 12px;
+   }
+   .three{
+    position: absolute;
+    bottom: 260px;
+    left: 220px;
+   }
+   .three input{
+    width: 230px;
+    padding: 10px;
+   }
+   .four > i{
+    font-size: 15px;
+    color:aqua;
+    background-color: blueviolet;
+    text-align: center;
+    padding: 12px;
+   }
+   .four input{
+    width: 80px;
+    padding: 10px;
+   }
+   .four{
+    position: absolute;
+    bottom: 100px;
+    left: 220px;
+   }
+   button{
+    width: 495px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: cadetblue;
+    color: white;
+   }
+   .five{
+
+    position: absolute;
+    left: 750px;
+    bottom: 45px;
+ 
+   }
+   button:hover{
+    background-color: blue;
+   }

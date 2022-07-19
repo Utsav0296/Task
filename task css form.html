@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image:url(backgorund\ image.jpg);
+            background-repeat: no-repeat;
+        }
+        .one input, .one textarea 
+        {
+            border: none;
+            border-bottom: 2px solid lightskyblue;
+            outline: none;
+            font-size: 16px;
+            width: 400px;
+            padding: 15px;
+            margin: 5px;
+            color:lightskyblue;
+            background-color: transparent;
+        }
+        .one{
+            background-color: rgb(37, 36, 36);
+            height: 445px;
+            width: 435px;
+            padding: 35px;
+            margin: 75px 15px 15px 135px;
+            float: left;
+        }
+        .one button{
+            background-color: lightskyblue;
+            width: 430px;
+            border: none;
+            outline: none;
+            padding: 15px;
+            margin: 15px 0px 0px 5px;
+            font-size: 18px;
+            color: aliceblue;
+        }
+        .one input::placeholder,.one textarea::placeholder{
+            color: lightskyblue;
+            font-size: 16px;
+        }
+        .two{
+            background-color: rgb(37, 36, 36);
+            height: 250px;
+            width: 435px;
+            padding: 35px;
+            margin: 75px 15px 15px 10px;
+            float: left;
+        }
+        .two input {
+            border: none;
+            border-bottom: 2px solid lightskyblue;
+            outline: none;
+            font-size: 14px;
+            width: 190px;
+            padding: 10px;
+            margin: 5px 0px 5px 5px;
+            color:lightskyblue;
+            background-color: transparent;
+            float: left;
+        }
+        .two textarea{
+            background-color: transparent;
+            padding: 5.5px;
+            border: none;
+            outline: none;
+            float: right;
+            margin: 4px;
+            font-size: 14px;
+            border-bottom: 2pxsolid lightskyblue;
+            width: 182px;
+            color: lightskyblue;
+        }
+        .two button {
+            background-color: lightskyblue;
+            color: aliceblue;
+            font-size: 16px;
+            width: 195px;
+            border: none;
+            outline: none;
+            float: right;
+            padding: 10px;
+            margin-top: 15px;
+        }
+        .two input::placeholder, 
+        .two textarea::placeholder{
+            color: lightskyblue;
+            font-size: 14px;
+        }
+        .three{
+            background-color: rgb(37, 36, 36);
+            height: 170px;
+            width: 505px;
+            margin: 0px 15px 15px 10px;
+            padding-bottom: 10px;
+            float: left;
+        }
+        h1{
+            font-size: 70px;
+            font-weight: 1300;
+            text-align: center;
+            margin-top: 5px;
+            color: lightskyblue;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        }
+    </style>
+</head>
+    <body>
+       <div class="one">
+             <tr><input type="text" placeholder="Name"></tr><br>
+             <tr><input type="email" placeholder="Email Address"></tr><br>
+             <tr><input type="tel" placeholder="Phone"></tr><br>
+             <tr><input type="text" placeholder="Subject"></tr><br><br>
+             <tr><textarea name="msg" id="" cols="30" rows="4" placeholder="Message"></textarea></tr><br>
+             <tr><button>SEND</button></tr>
+       </div>
+        <div class="two">
+            <tr>
+                <td><input type="text" placeholder="Name"></td>
+                <td><textarea name="msg" id="" cols="30" rows="10" placeholder="Message"></textarea></td>
+            </tr>
+            <tr><input type="email" placeholder="Email Address"></tr>
+            <tr><input type="tel" placeholder="Phone"></tr>
+            <tr><input type="text" placeholder="Subject"></tr>
+            <tr colspan="2"><button>SEND</button></tr>
+        </div>
+        <div class="three">
+            <h1>CONTACT US FORM</h1>
+        </div>
+   </body>
+</html>
