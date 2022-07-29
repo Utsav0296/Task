@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body{
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 700px;
+            width: 100% ;
+            
+            }
+        #main{
+            position: relative;
+            display: flex;
+           
+        }
+        .u{
+            font-size: 150px;
+            color: aqua;
+            padding: 50px;
+            animation: drop-u 1s linear;
+           
+        }
+        .t{
+            font-size: 150px;
+            color: aqua;
+            padding: 50px;
+            animation: drop-t 2s linear;
+            
+        }
+        .s{
+            font-size: 150px;
+            color: aqua;
+            padding: 50px;
+            animation: drop-s 3s linear;
+        }
+        .a{
+            font-size: 150px;
+            color: aqua;
+            padding: 50px;
+            animation: drop-a 4s linear;
+        }
+        .v{
+            font-size: 150px;
+            color: aqua;
+            padding: 50px;
+            animation: drop-v 5s linear;
+        }
+        
+        @keyframes drop-u{
+            0% {transform: translateY(-500px);}
+        }
+        @keyframes drop-t{
+            0% {transform: translateY(-500px);}
+        }
+        @keyframes drop-s{
+            0% {transform: translateY(-500px);}
+        }
+        @keyframes drop-a{
+            0% {transform: translateY(-500px);}
+        }
+        @keyframes drop-v{
+            0% {transform: translateY(-500px);}
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="u">U</div>
+        <div class="t">T</div>
+        <div class="s">S</div>
+        <div class="a">A</div>
+        <div class="v">V</div>
+    </div>
+</body>
+</html>
