@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .orange{
+        
+            height: 80px;
+            width: 400px;
+        }
+        img{
+           margin-left: 720px;
+        }
+        .green{
+            height: 80px;
+            width: 400px;
+        }
+        .pole{
+            height: 730px;
+            width: 12px;
+            border: 2px solid silver;
+            position: absolute;
+            background-color:silver;
+            left: 550px;   
+        }
+        .flag{
+            position: relative;
+            animation-name:demo;
+            animation-duration:  3s;
+        }  
+        @keyframes demo{
+            from{transform: translateY(500px);}
+            to{transform: translateY(0px);}
+        }
+    </style>
+</head>
+<body>
+    <div class="pole"></div>
+    <div class="flag">
+        <hr color="orange" class="orange">
+        <img src="Spinning_Ashoka_Chakra.gif" alt="image" width="80px" height="80px">
+        <hr color="green" class="green">
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        .Menu{
+            font-size: 30px;
+            padding: 10px;
+            width: 150px;
+            border-radius: 10px;
+            border: 0;
+            background-color: rgb(236, 96, 96);
+            color: rgb(181, 207, 228);
+        }
+        .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+        .drop{
+            font-size: 30px;
+            width: 150px;
+            display: none;
+            position: absolute;
+            text-align: center;
+        }
+        .drop a{
+            padding: 10px;
+            text-decoration: none;
+            margin-top: 50px !important;
+        }
+    </style>
+    <script>
+        $(document).ready(function(){
+            $('.Menu').click(function(){
+                $('.drop').toggle(1000);
+            })
+        })
+    </script>
+</head>
+<body>
+    <div class="dropdown">
+        <button class="Menu">Menu</button>
+        <div class="drop">
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">About us</a>
+            <a href="#">Contact us</a>
+        </div>
+    </div>
+</body>
+</html>

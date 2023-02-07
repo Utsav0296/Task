@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        
+    <script>
+           $(document).ready(function(){     
+       $('.slider').bxSlider();
+      });
+     
+    </script>
+    <style>
+        body{
+                border: 0;
+                margin: 0;
+            }
+    nav>a{
+        padding: 50px;
+        font-size: 30px;
+        color: aqua;
+       text-decoration: none;
+      }
+      nav{
+        height: 80px;
+        padding-top: 20px;
+        background-color: black;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+       
+      }
+      img{
+        height: 700px;
+        width: 100%;
+      }
+      #one{
+        display:none;
+      }
+     h1{
+        color: darkcyan;
+        font-size: 100px;
+        animation-name: demo;
+        animation-duration: 2s;
+        position: relative;
+     }
+     #two{
+        text-align: center;
+        margin-top: 250px;
+     }
+     @keyframes demo{
+        0%{font-size: 10px;}
+       100%{font-size: 100px;}
+     }
+    </style>
+        
+</head>
+<body>
+    <div id="one">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Menu</a>
+            <a href="#">Support</a>
+            <a href="#">Features</a>
+        </nav>   
+        <div class="slider">
+            <div><img src="images/px-beach-daylight-fun-1430675-image.jpg" alt=""></div>
+            <div><img src="images/shanghai.jpg" alt=""></div>
+        </div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur temporibus necessitatibus voluptate omnis, earum excepturi officiis distinctio unde. Officiis sunt adipisci aliquid sapiente ad tempore iure porro ratione magni?
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem architecto eveniet, ullam nemo laudantium accusamus quaerat vero? Nulla quos, alias magnam itaque architecto recusandae ratione totam assumenda exercitationem, blanditiis praesentium.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eaque modi nam facere nobis illo quos obcaecati corporis magni assumenda non earum distinctio veritatis exercitationem labore ipsam, similique nihil incidunt!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, corporis assumenda eos delectus reiciendis dolor omnis facere molestiae labore praesentium similique consectetur nesciunt in doloribus qui quas aperiam aut dignissimos?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, veniam aperiam vitae delectus, numquam quidem sequi repudiandae impedit fuga maxime mollitia obcaecati cupiditate quisquam quasi vero? Impedit, maxime ad. Consequatur!
+        </div>
+    </div>
+    <div id="two">
+        <h1>Welcome</h1>
+    </div>
+</body>
+</html>
+<script>
+ 
+     $(document).ready(function(){
+         var scroll_pos=0;
+         $(document).scroll(function(){
+             scroll_pos=$(this).scrollTop();
+             if(scroll_pos>100)
+             {
+             $("nav").css ("background","cornflowerblue");
+              }
+             else{
+             $("nav").css ("background","black");
+             }
+         })
+     })
+
+     setTimeout(() => {
+         document.getElementById('one').style .display="inline-block";
+         document.getElementById('two').style .display="none";
+     }, 2000);
+ </script>
